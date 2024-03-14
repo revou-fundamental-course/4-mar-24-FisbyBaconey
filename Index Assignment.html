@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head> 
+        <title>BMI Calculator Assignment</title>
+        <link rel="StyleSheet"  href="Style Assignment.css">
+    </head> 
+    <body>
+        <div class="FirstBox">
+            <h1>Kalkulator BMI</h1>
+            <p>
+            <input type="radio" id="Woman" name="GenderChoice" value="Woman" class="Gender" required>
+            <label for="Woman">Wanita</label>
+            <input type="radio" id="Man" name="GenderChoice" value="Man" class="Gender" required>
+            <label for="Man">Pria</label>
+            </p>
+            <input type="number" id= "Age" placeholder="Usia (Thn)" class="InputType" required>
+            <p><input type="number" id="Weight" placeholder="Berat badan (Kg)" class="InputType"  required></p>
+            <p><input type="number" id="Height" placeholder="Tinggi badan (cm)" class="InputType" required></p>
+            <button onclick="Calculate();" id="Submit">Kalkulasi</button>
+            <p id="Error"></p>
+            <script src="Codes Assignment.js"></script>
+        </div>
+        <div class="SecondBox">
+            <h1>Hasil BMI anda adalah...</h1>
+            <p id="BMIResult"></p>
+            <p id="ResultExplained"></p>
+        </div>
+    </body>
+</html>

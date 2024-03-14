@@ -1,0 +1,56 @@
+html{
+    background-color: #d4edfc;
+    display: inline;
+}
+h1{
+   color: #d4edfc; 
+   font-size: 3vw;
+   padding-top: 3vh;
+}
+.FirstBox{
+    color: #d4edfc;
+    background-color: #6a93ad; 
+    height: 58vh;
+    width: 27vw;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.InputType{
+    border-radius: 10px;
+    background-color: #d4edfc;
+    border-color: #d4edfc;
+    color: #6a93ad;
+    height: 5vh;
+    width: 15vw;
+}
+#Submit{
+    border-radius: 10px;
+    background-color: #d4edfc;
+    border-color: #6a93ad;
+    color: #6a93ad;
+    height: 6vh;
+    width: 8vw;
+    font-size: 3vh;
+    font-family: 'Trebuchet MS', 'Franklin Gothic Medium',
+}
+.SecondBox{
+    background-color: #6a93ad; 
+    height: 55vh;
+    width: 27vw;
+    border-radius: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+#BMIResult{
+    color: #d4edfc;
+    font-size: 6vw;
+    margin: 3px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#ResultExplained{
+    color: #d4edfc;
+    font-size: 2vw;
+    padding: 3px;
+    font-family: 'Trebuchet MS'
+}
